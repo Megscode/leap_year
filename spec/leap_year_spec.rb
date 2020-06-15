@@ -12,5 +12,10 @@ describe "leap years" do
 
   it "should return true when given 1988" do
     expect(leap_year?(1988)).to eq true
-  end 
+  end
+
+  it "should return true when given 1988" do
+    expect(leap_year?(2004)).to eq true
+  end
+
 end

@@ -1,6 +1,6 @@
 
   def leap_year?(n)
-    if n ==  2000 || n == 1988
+    if n % 4 == 0
       true
     else 
       false
