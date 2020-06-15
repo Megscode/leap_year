@@ -3,7 +3,7 @@ A simple tool that will tell you whether a year is a leap year, according to the
 DONE
 All years divisible by 400 ARE leap years (e.g. 2000 was a leap year)
 
-TODO
+DONE
 All years divisible by 100 but not by 400 are NOT leap years (e.g. 1700, 1800 and 1900 were not leap years)
 
 DONE
