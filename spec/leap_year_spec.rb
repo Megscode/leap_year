@@ -14,8 +14,12 @@ describe "leap years" do
     expect(leap_year?(1988)).to eq true
   end
 
-  it "should return true when given 1988" do
+  it "should return true when given 2004" do
     expect(leap_year?(2004)).to eq true
+  end
+
+  it "should return false if divisible by 4 and 100" do
+    expect(leap_year?(1700)).to eq false
   end
 
 end
